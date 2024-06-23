@@ -12,3 +12,6 @@ This will ping a site of your choice every few seconds as a keep-alive. If conne
 4. Grab [isp-monitor.service](https://github.com/imlayered/isp-monitor/blob/main/isp-monitor.service) and run ``nano /etc/systemd/system/isp-monitor.service``, then paste the code into that file. Hit control+O to save, then control+X to return to console.
 5. Run ``systemctl enable isp-monitor && systemctl start isp-monitor && systemctl status isp-monitor``
 6. (Optional, but greatly appreaciated) Star the repo. You are now done 🎊
+
+
+Report bugs or suggest stuff to [this thread](https://encoded.sh/threads/isp-monitor-python-script.41/)
