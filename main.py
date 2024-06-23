@@ -6,7 +6,7 @@ import signal
 import sys
 from threading import Event
 
-# Made by Auri (github.com/isp-monitor)
+# Made by Auri (github.com/imlayered/isp-monitor)
 with open('config.json', 'r') as config_file:
     config = json.load(config_file)
 
