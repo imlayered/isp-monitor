@@ -1,0 +1,5 @@
+{
+    "url": "http://google.com",
+    "interval": 10,
+    "discord_webhook_url": "https://discord.com/api/webhooks/your-webhook"
+}
