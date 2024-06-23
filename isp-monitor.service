@@ -1,0 +1,15 @@
+[Unit]
+Description=ISP Monitor (github.com/imlayered/isp-monitor)
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /isp-monitor/main.py
+WorkingDirectory=/isp-monitor
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
